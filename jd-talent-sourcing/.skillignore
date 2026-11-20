@@ -1,0 +1,22 @@
+# Keep reusable source and references; exclude runtime data and credentials.
+.git/
+.aime/
+.idea/
+.vscode/
+__pycache__/
+*/__pycache__/
+*.pyc
+.DS_Store
+*.zip
+.env
+.env.*
+!.env.example
+*.log
+temp_data/
+*/temp_data/
+runtime_data/
+*/runtime_data/
+screenshots/
+recordings/
+exports/
+logs/
