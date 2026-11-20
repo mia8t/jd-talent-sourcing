@@ -1,0 +1,18 @@
+# Keep source; exclude credentials and generated runtime artifacts.
+.aime/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+*.zip
+.env
+.env.*
+!.env.example
+*.log
+temp_data/
+runtime_data/
+screenshots/
+recordings/
+exports/
+logs/
